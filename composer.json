@@ -1,0 +1,23 @@
+{
+    "name": "j5/oauth2-maniaplanet",
+    "description": "ManiaPlanet OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "license": "MPL-2.0",
+    "support": {
+        "issues": "https://j5lx.de/u/oauth2-maniaplanet-tasks",
+        "source": "https://dev.j5lx.eu/source/oauth2-maniaplanet/"
+    },
+    "authors": [
+        {
+            "name": "Jakob Gahde",
+            "email": "j5lx@fmail.co.uk"
+        }
+    ],
+    "require": {
+        "league/oauth2-client": "^2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "J5\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
